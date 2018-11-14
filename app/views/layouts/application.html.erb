@@ -7,8 +7,20 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
 
+    <div class="navbar">
+            <div class="navbar-logo">
+                <img src="http://centrequestre.com/wp-content/uploads/2015/07/Arkadia.jpg" class="avatar" height=50 width=50>
+            </div>
+            <div class="navbar-right">
+                <ul>
+                    <li><a href="http://google.fr">kebab</a></li>
+                    <li><a href="http://google.fr">vroum</a></li>
+                </ul>
+            </div>
+    </div>
   <body>
     <%= yield %>
   </body>
